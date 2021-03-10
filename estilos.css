@@ -1,7 +1,7 @@
 body{
     background-image: url("imagenes/wallpaper.jpg");
 }
-header{
+#cabecera{
     width: 1090px;
     height: 60px;
     border: 2px solid #ff5e00;
@@ -14,9 +14,19 @@ header{
 nav{
     width: 100%;
     height: 40px;
+    padding-bottom: 2%;
+    display: inline-block;
+}
+
+#menu{
+    width: 15.5%;
+    height: 140%;
+    float: left;
     border: 2px solid #ff5e00;
     background-image: url("imagenes/rojo.jpg");
-    padding-bottom: 2%;
+    margin: 7px;
+    color: #ffffff;
+    padding-left: 160px;
 }
 
 main{
@@ -26,14 +36,16 @@ main{
     border: 2px solid #ff5e00;
     margin-top: 15px;
     background-image: url("imagenes/rojo.jpg");
+    margin-top: 15px;
 }
 
 footer{
     width: 100%;
     height: 40px;
-    border: 2px solid #ff5e00;
+    border: 2px solid #747271;
     margin-top: 15px;
-    background-image: url("imagenes/rojo.jpg");
+    background-color: #000000;
+    color: #ffffff;
 
 }
 
@@ -44,6 +56,32 @@ footer{
     font-family: 'Trebuchet MS';
 }
 
+/*Artículos*/
+#articulos{
+    display: inline-block;
+}
+
+article{
+    float: left;
+    border: 2px solid #ff5e00;
+    background-image: url("imagenes/blanco.jpg");
+    width: 379px;
+    height: 373px;
+    margin: 10px;
+    padding-left: 100px;
+    font-family: Georgia;
+}
+
+#producto{
+    width: 280px;
+    height: 280px;
+}
+
+#t_articulo{
+    font-size: 20px;
+}
+
+/*Anuncios*/
 #anuncios1{
     width: 160px;
     height: 800px;
@@ -67,3 +105,52 @@ footer{
     width: 160px;
     height: 200px;
 }
+
+#anuncio4{
+    width: 160px;
+    height: 160px;
+}
+
+#anuncio5{
+    width: 160px;
+    height: 100px;
+}
+
+#anuncio6{
+    width: 160px;
+    height: 150px;
+}
+
+
+/*Iniciar sesión:*/
+#login{
+    position: absolute;
+    top: 22%;
+    left: 90.5%;
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ff5e00;
+    background-image: url("imagenes/rojo.jpg");
+    margin-top: 15px;
+    padding: 15px;
+}
+
+#login1 , #login{
+    color: white;
+}
+
+#username{
+    margin: 1px;
+    width: 100px;
+}
+
+#password{
+    margin: 1px;
+    width: 100px;
+}
+
+#fieldset{
+    width: 100px;
+}
+
+
