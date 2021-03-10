@@ -95,7 +95,7 @@ footer{
     display: inline-block;
 }
 
-article{
+#articulo1{
     float: left;
     border: 2px solid #ff5e00;
     background-image: url("imagenes/blanco.jpg");
@@ -104,6 +104,31 @@ article{
     margin: 10px;
     padding-left: 100px;
     font-family: Georgia;
+}
+
+#articulo2{
+    float: left;
+    background-image: url("imagenes/blanco.jpg");
+    width: 1380px;
+    height: 780px;
+    margin: 10px;
+    padding-left: 100px;
+    font-family: Georgia;
+    display: inline-block;
+}
+
+
+/*Poner barra*/
+#articulo2 > article{
+    height: 740px;
+    width: 650px;
+    float: left;
+    margin: 7px;
+}
+
+
+#articulo1:hover{
+    background-image: url("imagenes/amarillo.jpg");
 }
 
 #producto{
