@@ -118,6 +118,9 @@ footer{
 
 #barra{
     border-right: 4px solid #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 20px;
 }
 
 
@@ -204,6 +207,12 @@ footer{
 
 #fieldset{
     width: 100px;
+}
+
+#imagen{
+    margin: auto;
+    width: 500px;
+    height: 500px;
 }
 
 
