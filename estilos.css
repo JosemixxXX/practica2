@@ -6,13 +6,15 @@ body{
     height: 60px;
     border: 2px solid #ff5e00;
     background-image: url("imagenes/rojo.jpg");
-    padding-left: 42%;
+    padding-left: 800px;
     padding-bottom: 2%;
     margin-bottom: 15px;
 }
 
+
+/*Menu*/
 nav{
-    width: 100%;
+    width: 2300px;
     height: 40px;
     padding-bottom: 2%;
     display: inline-block;
@@ -50,20 +52,9 @@ li:hover > ul{
     display: block;
 }
 
-#menu{
-    width: 15.5%;
-    height: 140%;
-    float: left;
-    border: 2px solid #ff5e00;
-    background-image: url("imagenes/rojo.jpg");
-    margin: 7px;
-    color: #ffffff;
-    padding-left: 160px;
-}
-
 main{
     margin-left: 10%;
-    width: 80%;
+    width: 1550px;
     height: 800px;
     border: 2px solid #ff5e00;
     margin-top: 15px;
@@ -72,7 +63,7 @@ main{
 }
 
 footer{
-    width: 98%;
+    width: 1900px;
     height: 130px;
     border: 2px solid #747271;
     margin-top: 15px;
@@ -109,7 +100,7 @@ footer{
 #articulo2{
     float: left;
     background-image: url("imagenes/blanco.jpg");
-    width: 1380px;
+    width: 1420px;
     height: 780px;
     margin: 10px;
     padding-left: 100px;
@@ -118,12 +109,15 @@ footer{
 }
 
 
-/*Poner barra*/
 #articulo2 > article{
     height: 740px;
     width: 650px;
     float: left;
     margin: 7px;
+}
+
+#barra{
+    border-right: 4px solid #000000;
 }
 
 
@@ -184,8 +178,8 @@ footer{
 /*Iniciar sesión:*/
 #login{
     position: absolute;
-    top: 22%;
-    left: 90.5%;
+    top: 220px;
+    left: 1770px;
     width: 140px;
     height: 140px;
     border: 2px solid #ff5e00;
