@@ -43,9 +43,49 @@
             <article id="articulo2">
                 <article id="barra">
                     <h2>Artículo: Nas - Illmatic | 15€</h2>
-                    <img id="imagen" src="../imagenes/illmatic.jpg"/>
+                    <div id="imagen"></div>
+                    <p id="descripcion"><strong>Descripcion:</strong> Original version of the awesome 1994 album featuring "Represent". One of the biggest Hip Hop albums of all time!</p>
                 </article>
-                <article></article>
+                <article>
+                    <form action="">
+                        <fieldset id="fieldset2">
+                            <legend>Datos para el pedido:</legend>
+                            <label for="nombre">Nombre y apellidos:</label>
+                            <br/>
+                            <input id="nombre" type="text"/>
+                            <br/>
+                            <label for="dni">DNI:</label>
+                            <br/>
+                            <input id="dni" type="text"/>
+                            <br/>
+                            <label for="codigo_p">CP:</label>
+                            <br/>
+                            <input id="codigo_p" type="text"/>
+                            <br/>
+                            <label for="direcc">Dirección:</label>
+                            <br/>
+                            <input id="direcc" type="text"/>
+                            <br/>
+                            <label for="num">Cantidad deseada:</label>
+                            <br/>
+                            <input id="num" type="range" min="0" max="10" value="1"/>
+                            <br/>
+                            <div id="numeros">
+                                <p>&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</p>
+                            </div>
+                            <label for="mail">Correo electrónico:</label>
+                            <br/>
+                            <input id="mail" type="email" placeholder="ejemplo@ejemplo.ej"/>
+                            <br/>
+                            <label for="comentarios">Especificaciones:</label>
+                            <br/>
+                            <textarea></textarea>
+                            <br/>
+                            <input type="submit" value="Realizar pedido"/>
+                            
+                        </fieldset>
+                    </form>
+                </article>
             </article>
         </main>
 

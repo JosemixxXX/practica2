@@ -120,7 +120,7 @@ footer{
     border-right: 4px solid #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 
@@ -210,10 +210,34 @@ footer{
 }
 
 #imagen{
-    margin: auto;
+    margin-left: 30px;
     width: 500px;
     height: 500px;
+    background-image: url("imagenes/illmatic.jpg"); 
 }
 
+#imagen:hover{
+    background-image: url("imagenes/illmatic-back.jpg");
+}
 
+#fieldset2>input{
+    width: 650px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
+#numeros{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+textarea{
+    resize: none;
+    width: 650px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+#descripcion{
+    font-size: 20px;
+}
