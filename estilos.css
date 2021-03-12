@@ -210,9 +210,10 @@ footer{
 }
 
 #imagen{
-    margin-left: 30px;
+    margin-left: 20px;
     width: 500px;
     height: 500px;
+    border: outset 5px #ff0000;
     background-image: url("imagenes/illmatic.jpg"); 
 }
 
@@ -240,4 +241,36 @@ textarea{
 
 #descripcion{
     font-size: 20px;
+}
+
+
+
+#tienda1{
+    width: 500px;
+    height: 300px;
+}
+
+#tienda2{
+    width: 400px;
+    height: 300px;
+}
+
+#tienda3{
+    width: 500px;
+    height: 300px;
+}
+
+#tienda4{
+    width: 500px;
+    height: 300px;
+}
+
+#tienda5{
+    width: 600px;
+    height: 300px;
+}
+
+#tienda6{
+    width: 300px;
+    height: 300px;
 }
