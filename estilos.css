@@ -1,8 +1,9 @@
 body{
     background-image: url("imagenes/wallpaper.jpg");
 }
+
 #cabecera{
-    width: 1090px;
+    width: 1130px;
     height: 60px;
     border: 2px solid #ff5e00;
     background-image: url("imagenes/rojo.jpg");
@@ -11,10 +12,9 @@ body{
     margin-bottom: 15px;
 }
 
-
 /*Menu*/
 nav{
-    width: 2300px;
+    width: 100%;
     height: 40px;
     padding-bottom: 2%;
     display: inline-block;
@@ -209,6 +209,14 @@ footer{
     width: 100px;
 }
 
+#future{
+    font-size: 35px;
+}
+
+#kanye{
+    font-size: 30px;
+}
+
 #imagen{
     margin-left: 20px;
     width: 500px;
@@ -220,6 +228,67 @@ footer{
 #imagen:hover{
     background-image: url("imagenes/illmatic-back.jpg");
 }
+
+#imagen1{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border: outset 5px #ff0000;
+    background-image: url("imagenes/high_off_life_future.jpg"); 
+}
+
+#imagen1:hover{
+    background-image: url("imagenes/future-back.jpg"); 
+}
+
+#imagen2{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border: outset 5px #ff0000;
+    background-image: url("imagenes/freddie_piñata.jpg"); 
+}
+
+#imagen2:hover{
+    background-image: url("imagenes/freddie-back.jpg"); 
+}
+
+#imagen3{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border: outset 5px #ff0000;
+    background-image: url("imagenes/keef.jpg"); 
+}
+
+#imagen3:hover{
+    background-image: url("imagenes/keef-back.jpg"); 
+}
+
+#imagen4{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border: outset 5px #ff0000;
+    background-image: url("imagenes/wwcd_griselda.jpg"); 
+}
+
+#imagen4:hover{
+    background-image: url("imagenes/wwcd-griselda-back.jpg"); 
+}
+
+#imagen5{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border: outset 5px #ff0000;
+    background-image: url("imagenes/tlop.jpg"); 
+}
+
+#imagen5:hover{
+    background-image: url("imagenes/tlop-back.jpg"); 
+}
+
 
 #fieldset2>input{
     width: 650px;
@@ -273,4 +342,8 @@ textarea{
 #tienda6{
     width: 300px;
     height: 300px;
+}
+
+a{
+    color: #000000;
 }
